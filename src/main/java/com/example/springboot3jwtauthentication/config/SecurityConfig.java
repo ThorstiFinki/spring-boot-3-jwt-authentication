@@ -1,5 +1,6 @@
 package com.example.springboot3jwtauthentication.config;
 
+import com.example.springboot3jwtauthentication.filters.JwtAuthenticationFilter;
 import com.example.springboot3jwtauthentication.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
